@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ActiveRFProbe)(type KiCad)(uri "$(KIPRJMOD)/ActiveRFProbe.pretty")(options "")(descr ""))
+)
