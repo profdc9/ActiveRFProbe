@@ -268,12 +268,12 @@ $EndComp
 $Comp
 L R R9
 U 1 1 5E9BA4DA
-P 6150 4450
-F 0 "R9" V 6230 4450 50  0000 C CNN
-F 1 "1k" V 6150 4450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6080 4450 50  0001 C CNN
-F 3 "" H 6150 4450 50  0001 C CNN
-	1    6150 4450
+P 6050 4450
+F 0 "R9" V 6130 4450 50  0000 C CNN
+F 1 "1k" V 6050 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5980 4450 50  0001 C CNN
+F 3 "" H 6050 4450 50  0001 C CNN
+	1    6050 4450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -605,28 +605,6 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3300 1450 50  0001 C CNN
 F 3 "" H 3300 1450 50  0001 C CNN
 	1    3300 1450
 	-1   0    0    1   
-$EndComp
-$Comp
-L D_Schottky D5
-U 1 1 5E9C8115
-P 6400 4650
-F 0 "D5" H 6400 4750 50  0000 C CNN
-F 1 "LRB751V" H 6400 4550 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 6400 4650 50  0001 C CNN
-F 3 "" H 6400 4650 50  0001 C CNN
-	1    6400 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR08
-U 1 1 5E9C8204
-P 6400 4950
-F 0 "#PWR08" H 6400 4700 50  0001 C CNN
-F 1 "GND" H 6400 4800 50  0000 C CNN
-F 2 "" H 6400 4950 50  0001 C CNN
-F 3 "" H 6400 4950 50  0001 C CNN
-	1    6400 4950
-	1    0    0    -1  
 $EndComp
 $Comp
 L SW_DPDT_x2 SW2
@@ -1037,8 +1015,6 @@ Wire Wire Line
 	2900 1250 4200 1250
 Connection ~ 3800 1250
 Wire Wire Line
-	6400 4950 6400 4800
-Wire Wire Line
 	9650 4700 9650 5000
 Wire Wire Line
 	3800 2200 3700 2200
@@ -1082,8 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 1350 2900 1250
 Connection ~ 3300 1250
-Wire Wire Line
-	10050 4200 10400 4200
 Wire Wire Line
 	9750 4200 9650 4200
 Wire Wire Line
@@ -1199,11 +1173,9 @@ Wire Wire Line
 Connection ~ 5500 4250
 Connection ~ 5700 4250
 Wire Wire Line
-	5900 4450 6000 4450
+	5900 4450 5900 4450
 Wire Wire Line
-	6400 4450 6400 4500
-Wire Wire Line
-	6300 4450 6850 4450
+	6600 4450 6850 4450
 $Comp
 L GND #PWR025
 U 1 1 5E9DC195
@@ -1219,7 +1191,6 @@ Wire Wire Line
 	6750 4950 6750 4750
 Wire Wire Line
 	6750 4300 6750 4550
-Connection ~ 6400 4450
 Connection ~ 6750 4450
 Wire Wire Line
 	6750 4300 7000 4300
@@ -1350,7 +1321,34 @@ Wire Wire Line
 Connection ~ 7400 3600
 Wire Wire Line
 	6600 5500 6600 4450
-Connection ~ 6600 4450
 Text Notes 8400 6950 0    60   ~ 0
 Active RF Probe\nBy D. Marks KW4TI\nCC-BY-SA 4.0
+$Comp
+L D_Schottky D5
+U 1 1 5E9C8115
+P 6450 4450
+F 0 "D5" H 6450 4550 50  0000 C CNN
+F 1 "LRB751V" H 6450 4350 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 6450 4450 50  0001 C CNN
+F 3 "" H 6450 4450 50  0001 C CNN
+	1    6450 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 4450 6200 4450
+$Comp
+L C_Small C?
+U 1 1 5E9E2E27
+P 10200 4200
+F 0 "C?" H 10210 4270 50  0000 L CNN
+F 1 "22 uF" H 10210 4120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 10200 4200 50  0001 C CNN
+F 3 "" H 10200 4200 50  0001 C CNN
+	1    10200 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 4200 10300 4200
+Wire Wire Line
+	10100 4200 10050 4200
 $EndSCHEMATC
