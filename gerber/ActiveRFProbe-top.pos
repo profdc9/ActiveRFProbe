@@ -1,0 +1,37 @@
+### Module positions - created on 04/27/20 11:35:32 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                       PosX       PosY       Rot  Side
+C1        100 pF        C_0805_HandSoldering      106.5600   -92.7300    0.0000  top
+C2        100 nF        C_0805_HandSoldering      101.8000   -88.4700  180.0000  top
+C3        10 nF         C_0805_HandSoldering       98.2400   -94.1200    0.0000  top
+C4        100 nF        C_0805_HandSoldering       97.0000   -86.3750    0.0000  top
+C5        10 nF         C_0805_HandSoldering       91.1860   -92.9640   90.0000  top
+C6        10 nF         C_0805_HandSoldering       80.6800   -91.3000    0.0000  top
+C8        10 nF         C_0805_HandSoldering       75.8300   -98.9800    0.0000  top
+C9        100 nF        C_0805_HandSoldering       84.5820   -87.1220  270.0000  top
+C16       22 uF         C_0805_HandSoldering       81.2800   -87.1220   90.0000  top
+D5        LRB751V       D_SOD-323_HandSoldering    79.8700   -94.5500   90.0000  top
+D6        LED           LED_0805_HandSoldering     77.0000   -82.7000    0.0000  top
+J25       Conn_Coaxial  Amphenol_RF_SMA_132289     68.5500   -91.2000  180.0000  top
+Q1        2SC3356       SOT-23                    101.4000   -91.5000  180.0000  top
+Q2        2SC3356       SOT-23                     96.1300   -91.4600  180.0000  top
+Q3        2SC3356       SOT-23                     88.3600   -91.5600  270.0000  top
+R1        10R           R_0805_HandSoldering      101.8250   -86.5750    0.0000  top
+R2        220R          R_0805_HandSoldering      101.5300   -95.7800  270.0000  top
+R3        10R           R_0805_HandSoldering       90.1100   -87.5800   90.0000  top
+R4        10k           R_0805_HandSoldering       93.3000   -92.8000  270.0000  top
+R5        22R           R_0805_HandSoldering       95.7250   -88.2500    0.0000  top
+R6        100R          R_0805_HandSoldering       92.3500   -87.9000  270.0000  top
+R7        10R           R_0805_HandSoldering       86.6140   -87.1220   90.0000  top
+R8        NC            R_0805_HandSoldering       77.4500   -94.4100  270.0000  top
+R9        10k           R_0805_HandSoldering       81.8100   -94.6100   90.0000  top
+R10       220R          R_0805_HandSoldering       84.2300   -92.6100  270.0000  top
+R11       47k           R_0805_HandSoldering      105.2500   -89.0400   90.0000  top
+R12       47k           R_0805_HandSoldering       87.6300   -94.4400  180.0000  top
+R13       10k           R_0805_HandSoldering       70.3700   -98.9800    0.0000  top
+R14       1k            R_0805_HandSoldering       72.2000   -82.7000  180.0000  top
+R15       10R           R_0805_HandSoldering       75.9000   -91.2100  180.0000  top
+R16       NC            R_0805_HandSoldering       72.5200   -92.5800  270.0000  top
+## End
